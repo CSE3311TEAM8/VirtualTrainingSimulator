@@ -1,11 +1,4 @@
-﻿/* InstantVR Oculus Touch extension
- * Copyright (c) 2017 by Passer VR
- * author: Pascal Serrarens
- * email: support@passervr.com
- * version: 3.8.0
- * date: April 4, 2017
- * 
- * - Configuration support
+﻿/* 
  */
 
 using UnityEngine;

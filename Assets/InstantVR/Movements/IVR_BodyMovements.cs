@@ -1,10 +1,4 @@
-﻿/* Instant Body Movements
- * author: Pascal Serrarnes
- * email: support@passervr.com
- * version: 3.7.0
- * date: July 25, 2016
- *
- * - Implemented stretchlesstargets
+﻿/*
  */
 
 using UnityEngine;

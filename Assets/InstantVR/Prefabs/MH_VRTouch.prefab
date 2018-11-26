@@ -3277,10 +3277,11 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!45 &45000011016110636
 Skybox:
   m_ObjectHideFlags: 1
@@ -3486,7 +3487,7 @@ MonoBehaviour:
   collided: 0
   hitNormal: {x: 0, y: 0, z: 0}
   inputDirection: {x: 0, y: 0, z: 0}
-  walkingSpeed: 1
+  walkingSpeed: 2
   rotationSpeed: 60
   proximitySpeed: 1
   proximitySpeedRate: 0.8
@@ -3576,7 +3577,9 @@ MonoBehaviour:
   sidestepping: 1
   rotation: 0
   fingerMovements: 1
-  teleportLayerMask: {}
+  teleportLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
 --- !u!114 &114000012085813592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3614,9 +3617,8 @@ MonoBehaviour:
   handPhysics: {fileID: 0}
   handPalm: {fileID: 0}
   handObj: {fileID: 0}
-  grabbing: 0
   lettingGo: 0
-  grabChecking: 0
+  grabbing: 0
 --- !u!114 &114000012181552552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3784,9 +3786,8 @@ MonoBehaviour:
   handPhysics: {fileID: 0}
   handPalm: {fileID: 0}
   handObj: {fileID: 0}
-  grabbing: 0
   lettingGo: 0
-  grabChecking: 0
+  grabbing: 0
 --- !u!114 &114000014215116994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3947,6 +3948,7 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3962,12 +3964,14 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
@@ -4067,6 +4071,7 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4082,12 +4087,14 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
@@ -4187,6 +4194,7 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4202,12 +4210,14 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
@@ -4307,6 +4317,7 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4322,12 +4333,14 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
